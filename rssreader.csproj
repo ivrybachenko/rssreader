@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    </PropertyGroup>
+  <ItemGroup>
+      <!-- ... -->
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+      <PackageReference Include="ninject" Version="3.3.4" />
+      <PackageReference Include="nlog" Version="4.6.6" />
+      <PackageReference Include="nlog.config" Version="4.6.6" />
+      <PackageReference Include="System.IO.Abstractions" Version="6.0.23" />
+      <PackageReference Include="System.ServiceModel.Syndication" Version="4.5.0" />
+      <!-- ... -->
+  </ItemGroup>
+</Project>
